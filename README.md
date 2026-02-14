@@ -12,16 +12,16 @@ SpaceX reuses rocket boosters to reduce launch costs. Predicting landing success
 
 **Results:**  
 
+Model Performance Comparison  
 
-Results Section (Very Important)
 
-Summarize final model comparison:
+| Model                | CV Accuracy | Test Accuracy |
+|----------------------|------------|--------------|
+| Logistic Regression  | ~84.6%     | 83.3%        |
+| SVM                  | ~84.8%     | 83.3%        |
+| Decision Tree        | ~88.7%     | 83.3%        |
+| KNN                  | ~84.8%     | 83.3%        |
 
-Model	CV Accuracy	Test Accuracy
-Logistic Regression	~84.6%	83.3%
-SVM	~84.8%	83.3%
-Decision Tree	~88.7%	83.3%
-KNN	~84.8%	83.3%
 
 ---
 
