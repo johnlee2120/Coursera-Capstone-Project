@@ -105,12 +105,8 @@ Built and evaluated multiple classification models (Logistic Regression, SVM, De
 ```text
 Data-Science-Project---Customer-Behavioral-Analysis/
 │
-├── data/                      # Processed datasets used for modeling
-├── notebooks/                 # Jupyter notebooks for EDA and modeling
-├── folium_plotly_files/       # Dash app and interactive visualization files
-│   ├── app.py                 # Plotly Dash application
-│   └── requirements.txt       # Deployment dependencies
-├── docs/                      # Static HTML files for GitHub Pages (Folium map)
 ├── Images/                    # Screenshots used in README
+├── Project Code/              # All the project's Jupyter Notebook Python Code
+├── docs/                      # Miscellaneous files used to render plotly dashboard and folium
 └── README.md                  # Project documentation
 ```
