@@ -1,9 +1,9 @@
 **Summary:**
 This project builds an end-to-end machine learning pipeline to predict whether the first stage of a Falcon 9 rocket will land successfully. The workflow includes data collection from the SpaceX API, web scraping, exploratory data analysis, feature engineering, model training, hyperparameter tuning, and dashboard development using Plotly Dash.
-
+---
 **Project Objective:**
 SpaceX reuses rocket boosters to reduce launch costs. Predicting landing success helps estimate launch economics. Built models to compare performance of Logistic Regression, SVM, Decision Trees, and KNN.
-
+---
 **Results:**
 
 Results Section (Very Important)
@@ -15,7 +15,7 @@ Logistic Regression	~84.6%	83.3%
 SVM	~84.8%	83.3%
 Decision Tree	~88.7%	83.3%
 KNN	~84.8%	83.3%
-
+---
 **Insights:**
 
 Decision Tree performed best in cross-validation.
