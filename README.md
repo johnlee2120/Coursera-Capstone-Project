@@ -39,13 +39,13 @@ Primary errors were false positives (predicting landing when it failed).
 **Images from project:**  
 
 
-### Interactive Dashboard (Plotly Dash)
+Interactive Dashboard (Plotly Dash)
 ![Dashboard Screenshot](Images/plotly%20dash.png)
 
-### Geospatial Analysis (Folium)
+Geospatial Analysis (Folium)
 ![Map Screenshot](Images/folium%20lab.png)
 
-### Model Validation Accuracy
+Model Validation Accuracy
 ![Bar Chart](Images/model%20comparison%20bar%20graph.png)
 
 ---
