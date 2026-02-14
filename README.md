@@ -99,3 +99,15 @@ Developed an interactive dashboard allowing dynamic filtering by launch site and
 8. Predictive Analysis
 
 Built and evaluated multiple classification models (Logistic Regression, SVM, Decision Tree, and KNN) using standardization, train/test splitting, and GridSearchCV hyperparameter tuning. Compared cross validation and test accuracy to determine the best performing model.
+
+
+Data-Science-Project---Customer-Behavioral-Analysis/
+│
+├── data/ # Processed datasets used for modeling
+├── notebooks/ # Jupyter notebooks for EDA and modeling
+├── folium_plotly_files/ # Dash app and interactive visualization files
+│ ├── app.py # Plotly Dash application
+│ └── requirements.txt # Deployment dependencies
+├── docs/ # Static HTML files for GitHub Pages (Folium map)
+├── Images/ # Screenshots used in README
+└── README.md # Project documentation
