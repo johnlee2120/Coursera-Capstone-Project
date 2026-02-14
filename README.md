@@ -6,7 +6,7 @@ This project builds an end-to-end machine learning pipeline to predict whether t
 
 ---
 
-**Project Objective:**  
+**Objective:**  
 
 SpaceX reuses rocket boosters to reduce launch costs. Predicting landing success helps estimate launch economics. Built models to compare performance of Logistic Regression, SVM, Decision Trees, and KNN.
 
@@ -27,7 +27,7 @@ Model Performance Comparison
 
 ---
 
-**Insights/Conclusion:**  
+**Conclusion/Insights:**  
 
 
 Decision Tree performed best in cross validation.
@@ -43,6 +43,10 @@ Primary errors were false positives (predicting landing when it failed).
 
 Geospatial Map (Folium)
 [View Interactive Map](https://johnlee2120.github.io/Data-Science-Project---Customer-Behavioral-Analysis/docs/spacex_launch_map.html)
+
+Interactive Dashboard (Plotly Dash)
+[Dashboard](https://johnlee2120.github.io/Data-Science-Project---Customer-Behavioral-Analysis/docs/spacex_launch_map.html)
+
 
 ---
 
