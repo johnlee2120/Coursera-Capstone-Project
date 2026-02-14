@@ -45,7 +45,7 @@ Geospatial Map (Folium)
 [View Interactive Map](https://johnlee2120.github.io/Data-Science-Project---Customer-Behavioral-Analysis/docs/spacex_launch_map.html)
 
 Interactive Dashboard (Plotly Dash)
-[Dashboard](https://johnlee2120.github.io/Data-Science-Project---Customer-Behavioral-Analysis/docs/spacex_launch_map.html)
+[Dashboard](https://data-science-project-customer-behavioral.onrender.com/)
 
 
 ---
