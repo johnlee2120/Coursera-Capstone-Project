@@ -27,7 +27,7 @@ Model Performance Comparison
 
 ---
 
-**Insights:**  
+**Insights/Conclusion:**  
 
 
 Decision Tree performed best in cross validation.
@@ -35,6 +35,14 @@ Decision Tree performed best in cross validation.
 All models achieved comparable test performance (~83%).
 
 Primary errors were false positives (predicting landing when it failed).
+
+---
+
+**Live Demo / Interactive Links**  
+
+
+Geospatial Map (Folium)
+[View Interactive Map](https://johnlee2120.github.io/Data-Science-Project---Customer-Behavioral-Analysis/docs/spacex_launch_map.html)
 
 ---
 
