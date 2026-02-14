@@ -28,7 +28,7 @@ Model Performance Comparison
 **Insights:**  
 
 
-Decision Tree performed best in cross-validation.
+Decision Tree performed best in cross validation.
 
 All models achieved comparable test performance (~83%).
 
@@ -41,67 +41,32 @@ Primary errors were false positives (predicting landing when it failed).
 
 1. Data Collection – SpaceX API
 
-Collected launch records directly from the SpaceX API. Extracted payload mass, launch site, orbit, booster version, and landing outcome.
+Collected launch data directly from the SpaceX API, extracting key variables such as flight number, payload mass, orbit type, booster version, launch site, and landing outcome. Converted raw JSON responses into structured Pandas dataframes for analysis.
 
-2. Web Scraping – Wikipedia
+2. Data Collection - Scraping
 
-Scraped historical Falcon 9 launch records using BeautifulSoup. Cleaned and structured raw HTML tables into a usable dataset.
+Scraped historical launch records from Wikipedia using requests and BeautifulSoup, handling HTTP headers and parsing HTML tables. Cleaned and structured scraped data to supplement API information.
 
 3. Data Wrangling
 
-Handled missing values, encoded categorical features, and created the binary target variable (Class).
+Cleaned and prepared the dataset by handling missing values, creating the binary landing success label (Class), encoding categorical variables using one-hot encoding, and exporting structured datasets for modeling.
 
-4. Exploratory Data Analysis
+4. EDA with SQL
 
-Visualized relationships between:
+Loaded launch data into SQLite and performed exploratory queries using SQL to analyze launch sites, success rates, payload distributions, and orbit performance patterns.
 
-- Flight number vs success
+5. EDA with Data Visualization
 
-- Payload mass vs orbit
+Used matplotlib and seaborn to visualize relationships between payload mass, flight number, orbit type, and landing success. Identified trends such as increasing success rates over time and orbit specific performance differences.
 
-- Launch site vs landing outcome
+6. Folium
 
-- Yearly success trends
+Built interactive maps using Folium to visualize launch site locations, success/failure markers, and proximity analysis. Calculated distances between launch sites and nearby geographic features (like coastline) to explore spatial factors affecting success.
 
-Identified increasing landing success rates over time.
+7. Plotly Dash
 
-5. Feature Engineering
+Developed an interactive dashboard allowing dynamic filtering by launch site and payload range. Implemented callbacks to update pie charts (success distribution) and scatter plots (payload vs. outcome) in real time.
 
-Applied one-hot encoding to categorical variables and standardized numerical features.
+8. Predictive Analysis
 
-6. Machine Learning Modeling
-
-Split data into training/testing sets and trained:
-
-- Logistic Regression
-
-- Support Vector Machine
-
-- Decision Tree
-
-- K-Nearest Neighbors
-
-Used GridSearchCV (10-fold CV) for hyperparameter tuning.
-
-7. Model Evaluation
-
-Compared models using:
-
-- Test accuracy
-
-- Confusion matrices
-
-- Cross-validation performance
-
-Decision Tree achieved the highest validation accuracy (~88%).
-
-8. Interactive Dashboard
-
-Built a Plotly Dash dashboard allowing users to:
-
-- Filter by launch site
-
-- Adjust payload range
-
-- Visualize success rates interactively
-
+Built and evaluated multiple classification models (Logistic Regression, SVM, Decision Tree, and KNN) using standardization, train/test splitting, and GridSearchCV hyperparameter tuning. Compared cross validation and test accuracy to determine the best performing model.
