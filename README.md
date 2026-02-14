@@ -46,7 +46,7 @@ Primary errors were false positives (predicting landing when it failed).
 ![Map Screenshot](Images/folium%20lab.png)
 
 ### Model Validation Accuracy
-![Bar Chart](Images/model%20comparison%20bar%20chart.png)
+![Bar Chart](Images/model%20comparison%20bar%20graph.png)
 
 ---
 
