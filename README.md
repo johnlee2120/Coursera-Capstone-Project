@@ -36,6 +36,20 @@ Primary errors were false positives (predicting landing when it failed).
 
 ---
 
+**Images from project:**  
+
+
+### Interactive Dashboard (Plotly Dash)
+![Dashboard Screenshot](link)
+
+### Geospatial Analysis (Folium)
+![Map Screenshot](link)
+
+### Model Validation Accuracy
+![Bar Chart](link)
+
+---
+
 **Workflow Overview:**  
 
 
