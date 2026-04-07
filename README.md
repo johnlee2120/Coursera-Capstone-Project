@@ -2,7 +2,7 @@ UPDATE: Originally completed in 2025. Repository updated in 2026 to improve docu
 
 **Summary:**  
 
-This project builds an end-to-end machine learning pipeline to predict whether the first stage of a Falcon 9 rocket will land successfully. The workflow includes data collection from the SpaceX API, web scraping, exploratory data analysis, feature engineering, model training, hyperparameter tuning, and dashboard development using Plotly Dash.
+This project builds an end-to-end machine learning pipeline to predict whether the first stage of a Falcon 9 rocket will land successfully (90 observations, 83 features). The workflow includes data collection from the SpaceX API, web scraping, exploratory data analysis, feature engineering, model training, hyperparameter tuning, and dashboard development using Plotly Dash.
 
 ---
 
